@@ -1,0 +1,42 @@
+1  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    2  unzip awscliv2.zip
+    3  sudo ./aws/install
+    4  aws --version
+    5  exit
+    6  aws --version
+    7  ls
+    8  exit
+    9  kubectl version
+   10  eksctl version
+   11  curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+   12  cd /tmp
+   13  ll
+   14  mv eksctl /usr/local/bin
+   15  eksctl version
+   16  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   17  ls
+   18  cd ..
+   19  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   20  ls
+   21  cd tmp
+   22  ls
+   23  cd ..
+   24  yum install epel-release
+   25  sudo yum install java-11-openjdk
+   26  sudo amazon-linux-extras install java-openjdk11
+   27  java --version
+   28  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+   29  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   30  sudo yum install jenkins
+   31  ls
+   32  cd tmo
+   33  cd /tmp
+   34  cd ..
+   35  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   36  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   37  sudo amazon-linux-extras install epel
+   38  sudo yum install jenkins
+   39  sudo systemctl enable jenkins
+   40  sudo systemctl start jenkins
+   41  sudo systemctl status jenkins
+   42  history
